@@ -55,6 +55,6 @@ for (let count = 0; count < 10; count++) {
     }
     if (strikeNumber === 3) {
         alert('축하한다 짜식아')
-        i = 9
+        count = 9
     }
 }
