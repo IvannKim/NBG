@@ -19,7 +19,6 @@ for (let count = 0; count < 10; count++) {
     } else {
         alert(`Strike: ${strikeNumber}, Ball: ${ballNumber}\n 남은 횟수: ${9-count}`)
     }
-
 }
 
 // function
