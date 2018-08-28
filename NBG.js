@@ -3,8 +3,6 @@ alert('지금부터 게임을 시작하지')
 const shuffledNumbers = shuffleArrayElement([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 const computerNumbers = [shuffledNumbers[0], shuffledNumbers[1], shuffledNumbers[2]]
 
-alert(computerNumbers)
-
 for (let count = 0; count < 10; count++) {
     const inputNumbers = prompt("숫자를 입력해 주세요").split("");
     const userNumbers = parseNumbers(inputNumbers)
