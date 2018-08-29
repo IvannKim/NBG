@@ -1,5 +1,5 @@
 // main
-// alert('지금부터 게임을 시작하지')
+alert('지금부터 게임을 시작하지')
 const shuffledNumbers = shuffleArrayElement([1, 2, 3, 4, 5, 6, 7, 8, 9])
 const computerNumbers = [shuffledNumbers[0], shuffledNumbers[1], shuffledNumbers[2]]
 
@@ -21,15 +21,11 @@ for (let count = 0; count < 10; count++) {
     }
 }
 
-// function
+
 function shuffleArrayElement(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
         [arr[i], arr[j]] = [arr[j], arr[i]];
-        // let empty;
-        // empty = arr[i]
-        // arr[i] = arr[j]
-        // arr[j] = empty
     }
     return arr
 }
